@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "BackstageTestFrontendTemplate"
+  description: "This is web frontend template for testing backstage"
+  annotations:
+    github.com/project-slug: MiteshSharma/backstage-test-frontend
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "team-a"

@@ -1,0 +1,8 @@
+site_name: "BackstageTestFrontendTemplate"
+site_description: "This is web frontend template for testing backstage"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
